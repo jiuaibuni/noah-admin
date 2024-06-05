@@ -24,10 +24,6 @@ export interface CliOption {
    * @default ['--deep', '-u']
    */
   ncuCommandArgs: string[];
-  /**
-   * Options of generate changelog
-   *
-   * @link https://github.com/soybeanjs/changelog
-   */
+  /** Options of generate changelog */
   changelogOptions: Partial<ChangelogOption>;
 }

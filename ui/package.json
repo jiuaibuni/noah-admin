@@ -1,20 +1,20 @@
 {
-  "name": "soybean-admin",
+  "name": "noah-admin",
   "type": "module",
   "version": "1.1.3",
-  "description": "A fresh and elegant admin template, based on Vue3、Vite3、TypeScript、NaiveUI and UnoCSS. 一个基于Vue3、Vite3、TypeScript、NaiveUI and UnoCSS的清新优雅的中后台模版。",
+  "description": "A fresh and elegant admin template. ",
   "author": {
-    "name": "Soybean",
-    "email": "soybeanjs@outlook.com",
-    "url": "https://github.com/soybeanjs"
+    "name": "Noah",
+    "email": "gby_dev@163.com",
+    "url": "https://github.com/jiuaibuni"
   },
   "license": "MIT",
-  "homepage": "https://github.com/soybeanjs/soybean-admin",
+  "homepage": "https://github.com/jiuaibuni/noah-admin",
   "repository": {
-    "url": "https://github.com/soybeanjs/soybean-admin.git"
+    "url": "git@github.com:jiuaibuni/noah-admin.git"
   },
   "bugs": {
-    "url": "https://github.com/soybeanjs/soybean-admin/issues"
+    "url": "https://github.com/jiuaibuni/noah-admin/issues"
   },
   "keywords": [
     "Vue3 admin ",
@@ -107,5 +107,5 @@
   "lint-staged": {
     "*": "eslint --fix"
   },
-  "website": "https://admin.soybeanjs.cn"
+  "website": "https://gengby.com"
 }
