@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed, reactive } from 'vue';
 import { $t } from '@/locales';
-import { loginModuleRecord } from '@/constants/app';
 import { useRouterPush } from '@/hooks/common/router';
 import { useFormRules, useNaiveForm } from '@/hooks/common/form';
 import { useAuthStore } from '@/store/modules/auth';
@@ -37,15 +36,6 @@ const rules = computed<Record<keyof FormModel, App.Global.FormRule[]>>(() => {
 async function handleSubmit() {
   await validate();
   await authStore.login(model.userName, model.password);
-}
-
-interface Account {
-  userName: string;
-  password: string;
-}
-
-async function handleAccountLogin(account: Account) {
-  await authStore.login(account.userName, account.password);
 }
 </script>
 

@@ -13,6 +13,7 @@ export const generatedRoutes: GeneratedRoute[] = [
     meta: {
       title: '403',
       i18nKey: 'route.403',
+      hideInMenu: true,
       constant: true
     }
   },
@@ -23,6 +24,7 @@ export const generatedRoutes: GeneratedRoute[] = [
     meta: {
       title: '404',
       i18nKey: 'route.404',
+      hideInMenu: true,
       constant: true
     }
   },
@@ -33,6 +35,7 @@ export const generatedRoutes: GeneratedRoute[] = [
     meta: {
       title: '500',
       i18nKey: 'route.500',
+      hideInMenu: true,
       constant: true
     }
   },
@@ -63,11 +66,12 @@ export const generatedRoutes: GeneratedRoute[] = [
   {
     name: 'login',
     path: '/login/:module(pwd-login)?',
-    component: 'layout.base$view.login',
+    component: 'layout.blank$view.login',
     props: true,
     meta: {
       title: 'login',
       i18nKey: 'route.login',
+      hideInMenu: true,
       constant: true
     }
   },
